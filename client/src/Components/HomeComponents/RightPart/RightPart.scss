@@ -1,0 +1,20 @@
+.RightPart{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .miniNav{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        svg{
+            width: 2rem;
+            height: 2rem;
+            
+        }
+    }
+    .r-button{
+        height: 3rem;
+        width: 80%;
+        align-self: center;
+    }
+}
